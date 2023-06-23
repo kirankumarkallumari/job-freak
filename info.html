@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Freak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+         <!-- <img class="main_img" src="./bg1.png" alt="img"> -->
+        <div class="sidebar">
+           
+           <ul>
+            <li><a href="./index.html">
+                <span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
+            <li><a href="./Contact.html">
+                <span class="icon"><i class="fas fa-phone"></i></span><span class="item">Contact</span></a></li>
+            <li><a href="#">
+                <span class="icon"><i class="fas fa-chart-line"></i></span><span class="item">Information</span></a></li>
+            <li><a href="./guide.html">
+                <span class="icon"><i class="fas fa-user-shield"></i></span><span class="item">Guide</span></a></li>
+            
+           </ul> 
+
+        </div>
+        <div class="section">
+            <div class="top_ham">
+                <div class="hamburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="info_text">
+           <h2>Who are We</h2>
+           </div>
+           <div id="info2_text">
+            <h2>Our Team</h2>
+            <p>We are a team of Corporate Professional individuals with over 100 man years of experience and possess domain expertise in diversified business activities. Our Management team has an strong amalgam of Professionals with experience in National & International Market with competencies in Staffing , Recruitment , Talent Acquisition, IT Turn Key Projects deployment , Media & Advertising , E Commerce etc.. Our team bridges the gap between the client requirements and the prompt solution to support the corporates.</p>
+            <p2>OUR MISSION:
+                Our Mission is to create a powerful hub for the Corporate companies, Entrepreneurs, Working Professionals, Aspiring Fresher’s and Service providers to get together on a platform and utilize each other’s knowledge, business information, products & their expertise for mutual benefit and profitability.</p2>
+           </div>
+    </div>
+    <style>
+        .info_text{
+            font-size: 3vh;
+           text-align: center;
+        }
+        #info2_text{
+            padding: 10%;
+            text-align: center;
+        }
+        #info2_text p{
+           text-align: 40px;
+           margin-left: 124px;
+        }
+        #info2_text p2{
+            padding-top: 40px;
+            text-align: center;
+            margin-left: 124px;
+            padding: 30px;
+
+        }
+    </style>
+   
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+	hamburger.addEventListener("click", function(){
+		document.querySelector("body").classList.toggle("active");
+	})
+    </script>
+</body>
+</html>

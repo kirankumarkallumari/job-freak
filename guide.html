@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Freak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+         <!-- <img class="main_img" src="./bg1.png" alt="img"> -->
+        <div class="sidebar">
+           
+           <ul>
+            <li><a href="./index.html">
+                <span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
+            <li><a href="./Contact.html">
+                <span class="icon"><i class="fas fa-phone"></i></span><span class="item">Contact</span></a></li>
+            <li><a href="./info.html">
+                <span class="icon"><i class="fas fa-chart-line"></i></span><span class="item">Information</span></a></li>
+            <li><a href="#">
+                <span class="icon"><i class="fas fa-user-shield"></i></span><span class="item">Guide</span></a></li>
+            
+           </ul> 
+
+        </div>
+        <div class="section">
+            <div class="top_ham">
+                <div class="hamburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="guide_text">
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima iste molestias in non dignissimos earum nesciunt atque magni, ipsum nobis, consectetur laudantium quos ducimus distinctio velit laboriosam reiciendis doloremque. Molestiae autem beatae asperiores adipisci repellat inventore fugiat eos quod provident repudiandae! Eaque vero sed fugiat perferendis eveniet dolorem nostrum necessitatibus.</p>
+        </div>
+    </div>
+    <style>
+        .guide_text{
+            text-align: center;
+            padding: 60px;
+            margin: 70px;
+        }
+        
+    </style>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+	hamburger.addEventListener("click", function(){
+		document.querySelector("body").classList.toggle("active");
+	})
+    </script>
+</body>
+</html>

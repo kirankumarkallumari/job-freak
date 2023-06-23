@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Freak</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+         <img class="main_img" src="./bg1.png" alt="img">
+        <div class="sidebar">
+           
+           <ul>
+            <li><a href="./">
+                <span class="icon"><i class="fas fa-home"></i></span><span class="item">Home</span></a></li>
+            <li><a href="./Contact.html">
+                <span class="icon"><i class="fas fa-phone"></i></span><span class="item">Contact</span></a></li>
+            <li><a href="./info.html">
+                <span class="icon"><i class="fas fa-chart-line"></i></span><span class="item">Information</span></a></li>
+            <li><a href="./guide.html">
+                <span class="icon"><i class="fas fa-user-shield"></i></span><span class="item">Guide</span></a></li>
+            
+           </ul> 
+
+        </div>
+        <div class="section">
+            <div class="top_ham">
+                <div class="hamburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </div>
+        </div>
+       <div class="text">
+        <h1><b>JOB FREAK IS HERE</b></h1>
+       </div>
+    </div>
+    <script>
+        var hamburger = document.querySelector(".hamburger");
+	hamburger.addEventListener("click", function(){
+		document.querySelector("body").classList.toggle("active");
+	})
+    </script>
+</body>
+</html>
